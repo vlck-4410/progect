@@ -1,0 +1,17 @@
+[project]
+name = "progect10-1"
+version = "0.1.0"
+description = ""
+authors = [
+    {name = "Zarubin Sergey",email = "seregazarubin2003@mail.ru"}
+]
+requires-python = ">=3.14"
+dependencies = [
+]
+
+[tool.poetry]
+packages = [{include = "progect10"}]
+
+[build-system]
+requires = ["poetry-core>=2.0.0,<3.0.0"]
+build-backend = "poetry.core.masonry.api"
